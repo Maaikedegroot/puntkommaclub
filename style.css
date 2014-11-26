@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(puntkommaatjes.png);
+  background-color: #BF9534;
+  font-family: 'Bree Serif', serif;
+}
+
+header {
+  background-image: url(puntkommaatjes.png);
+  background-position: 0 0;
+  background-color: #5D8285;
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+}
+
+h1 {
+  line-height: 40px;
+  font-size: 40px;
+}
+
+#puntkomma {
+  font-size: 100px;
+  color: black;
+  width: 100%;
+  top: 200px;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#puntkommaatje {
+  color: #5D8285;
+}
