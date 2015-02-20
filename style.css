@@ -27,8 +27,8 @@ h1 {
 #puntkomma {
   font-size: 70px;
   color: black;
-  width: 100%;
-  top: 120px;
+  /*width: 100%;*/
+  /*top: 120px;*/
   position: absolute;
   text-align: center;
   vertical-align: middle;
@@ -36,4 +36,15 @@ h1 {
 
 #puntkommaatje {
   color: #5D8285;
+}
+
+#puntkomma {
+  font-family: "Comic Sans", "Comic Sans MS", cursive;
+
+  -ms-transform: rotate(70deg); /* IE 9 */
+  -webkit-transform: rotate(70deg); /* Chrome, Safari, Opera */
+  transform: rotate(70deg);
+  bottom: 190px;
+  right: 50px;
+
 }
